@@ -22,7 +22,7 @@ python main.py
 
 ## Seeding data
 
-### To get a fresh database from the project root, run:
+### To get a fresh database, from the project root, run:
 
 ```
 python remove_database.py
