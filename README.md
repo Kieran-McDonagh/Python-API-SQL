@@ -19,3 +19,13 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+
+## Seeding data
+
+### To get a fresh database from the project root, run:
+
+```
+python remove_database.py
+```
+
+#### Now the next time you run the project you will be prompted to seed new data.
