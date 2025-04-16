@@ -2,11 +2,26 @@
 
 ## Running the project locally
 
-### To run the project locally, from the root of the project activate the virtual environment with:
+### To run the project locally:
+
+### 1) Make sure you have the latest changes:
+
+```
+git pull main
+```
+
+### 2) From the root of the project activate the virtual environment with:
 
 ```
 source venv/bin/activate 
 ```
+
+### If you need to create your own virtual environment, run:
+
+```
+python -m venv venv
+```
+
 
 ### If you need to install any requirements, run:
 
@@ -14,7 +29,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Finally, run the application with:
+### 3) Finally, run the application with:
 
 ```
 python main.py
