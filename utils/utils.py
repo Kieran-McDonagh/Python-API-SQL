@@ -159,7 +159,8 @@ class Utils:
             print("Invalid time format. Please enter time as HH:MM (e.g. 18:00).")
             return None
 
-    
+    # Displays initial options to user, top level of user menu, allows for exit.
+    # Envoke the method of the selected option.
 
     @staticmethod
     def present_initial_options(
@@ -171,6 +172,9 @@ class Utils:
             handler = options.get(option)
             if handler:
                 handler()
+
+    # Displays options to user with option to go back a level.
+    # Envoke the method of the selected option.
 
     @staticmethod
     def present_standard_options(
