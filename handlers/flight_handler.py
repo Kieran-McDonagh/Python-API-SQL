@@ -337,7 +337,7 @@ class FlightHandler:
             return
 
         selected_flight = u.select_flight_from_records(
-            "Choose a destination for new flight:", all_flights
+            "Select flight:", all_flights
         )
         if selected_flight is None:
             return

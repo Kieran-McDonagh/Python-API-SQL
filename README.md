@@ -35,6 +35,12 @@ pip install -r requirements.txt
 python main.py
 ```
 
+(Or if using python 3)
+
+```
+python3 main.py
+```
+
 ## Seeding data
 
 ### To get a fresh database, from the project root, run:
